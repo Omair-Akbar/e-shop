@@ -7,7 +7,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const perks = [
   {
     name:"Instant Delivery",
-    icon:"<LuArrowDownToLine />",
+    icon:<LuArrowDownToLine />,
     desc:"Get your assets delivered to your email in seconds and download them right away."
   }, {
     name:"Granted quality",
@@ -45,6 +45,10 @@ export default function Home() {
                   <div className="h-16 w-16 items-center flex justify-center rounded-full bg-blue-100 text-blue-900">
                     {perk.icon}
                   </div>
+                </div>
+                <div className="mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6">
+                  <h3 className="text-base font-medium text-gray-900">{perk.name}</h3>
+                  <p className="mt-3 text-sm text-muted-foreground">{perk.desc}</p>
                 </div>
               </div>
             ))}
