@@ -13,5 +13,4 @@ const MaxwidthWrapper = ({className,children}:{className?:string,children:ReactN
 
 
 
-
 export default MaxwidthWrapper
