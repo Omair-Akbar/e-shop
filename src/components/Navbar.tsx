@@ -16,12 +16,14 @@ const Navbar = () => {
             <MaxwidthWrapper>
                 <div className=" border-b border-gray-200">
                     <div className="flex h-16 items-center">
-{/* MOBILE NAV */}
                   <div className="ml-4 flex lg:ml-0">
                     <Link href="/">
                       <Icons.logo className="h-10 w-10"/>
                     </Link>
                   </div>
+                    <div className="lg:hidden w-full p-1 flex items-center justify-end">
+                    <Cart/>
+                    </div>
                   <div className="hidden z-50 lg:ml-8 lg:block lg:self-stretch">
                     <NavItems/>
                   </div>
