@@ -10,7 +10,7 @@ import Image from 'next/image';
 const Cart = () => {
 
 const fee =1  
-const itemCount = 5
+const itemCount = 0
 
 
 
